@@ -1,0 +1,50 @@
+# Ignore Python environments
+venv/
+venv_opt/
+.venv/
+env/
+ENV/
+
+# Ignore Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore binary files and media
+*.exe
+*.bin
+*.dll
+*.so
+*.dylib
+*.pdf
+*.zip
+*.tar
+*.gz
+*.7z
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.ico
+*.mp4
+*.mp3
+*.wav
+*.flac
+
+# Ignore local config and logs
+.env
+*.log
+.vscode/
+.idea/
+.git/
+.antigravity/
+.gemini/
